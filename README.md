@@ -31,4 +31,4 @@ Below are the findings from the compiling, training, and evaluating of the model
 
 ### Summary
 ####
-each attempt was unsuccessful in raising the accuracy rate. 
+The acceptable rate of success for the neural network model that was performed for this analysis was 75%, however, none of the models reached that accuracy goal. Due to this, none of the models could be used to properly predict whether a charity would succeed with funding from Alphabet Soup. Each attempt at optimization increased the number of hidden layers and epochs, but there was little change in the loss and accuracy of the individual models. A different approach would need to be utilized in order to achieve the acceptable range of accuracy. A future data analyst may find success in employing the keras tuner method as it will perform several models to find the best fit for the data behind the scenes.  
